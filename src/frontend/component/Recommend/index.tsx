@@ -133,7 +133,7 @@ import FormField from "../form/renderField";
             <p className="text-gray-600">
               Distance: {item.distance.toFixed(2)} km
             </p>
-            <p className="text-gray-600">Mood: {item.mood}</p>
+            {/* <p className="text-gray-600">Mood: {item.mood}</p> */}
           </div>
         ))}
       </div>
